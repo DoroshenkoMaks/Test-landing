@@ -1,0 +1,348 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+}
+
+.header {
+  height: 50vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("headerImage.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+h1 {
+  text-transform: uppercase;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.content__header {
+  font-size: 23px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.callback {
+  width: 20%;
+  background-color: #fff;
+  margin: 50px;
+  text-align: center;
+}
+.callback__input {
+  width: 80%;
+  padding: 5px;
+  margin-top: 15px;
+  border: 1px solid silver;
+  border-radius: 3px;
+}
+.callback__input:last-of-type {
+  margin-bottom: 20px;
+}
+.callback-header {
+  color: rgb(114, 114, 114);
+  font-weight: 400;
+  margin: 20px 0;
+}
+.text {
+  height: 35vh;
+  width: 30vw;
+  color: #fff;
+  margin: auto 0;
+}
+.text p {
+  margin: 10px 0;
+}
+.text p:last-of-type {
+  margin-top: 30px;
+}
+.timer {
+  /* letter-spacing: 10px; */
+  font-size: 24px;
+  margin: 0 auto;
+}
+mark {
+  background-color: rgba(211, 16, 16, 0.904);
+  color: #fff;
+}
+.paragraph mark {
+  background-color: rgba(255, 115, 0, 0.904);
+}
+.content {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.content__benefits {
+  display: flex;
+  margin-top: 15px;
+}
+hr {
+  width: 80px;
+  border: 1px solid rgb(27, 183, 255);
+  margin: 0 auto;
+}
+.content__benefits section {
+  margin-right: 30px;
+}
+.header-text {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 15px 0;
+}
+.content__benefits section:last-of-type {
+  margin-right: 0;
+}
+.benefit__section {
+  padding: 30px 5px;
+}
+.benefit__section:hover {
+  box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+}
+.mentor {
+  display: flex;
+  margin: 80px 0;
+  /* flex-direction: column; */
+}
+.mentor__list {
+  list-style-type: none;
+  margin-top: 30px;
+  text-align: left;
+}
+.mentor__list li {
+  margin-bottom: 10px;
+}
+.mentor__list--check {
+  width: 15px;
+  margin-right: 10px;
+}
+.mentor__image {
+  width: 55%;
+  margin-right: 30px;
+}
+.mentor__btn {
+  margin-top: 50px;
+}
+.mentor__underline {
+  margin: 0;
+}
+.mentor__header {
+  text-align: left;
+  margin-top: 15px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+.row:first-of-type {
+  margin-top: 50px;
+}
+.svg {
+  width: 40px;
+  margin: 25px 0;
+}
+.criterias-section {
+  width: 25%;
+  padding: 0 30px 50px 30px;
+  background-color: rgb(247, 247, 247);
+}
+.criterias-section:hover {
+  box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.05);
+}
+.сriterias__header {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.reviews {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 80px 0;
+}
+.reviews__header {
+  margin-top: 30px;
+}
+.reviews__section {
+  width: 25%;
+  text-align: left;
+  padding: 30px;
+}
+.reviews__section:hover {
+  box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+}
+.reviews__text {
+  color: rgb(114, 114, 114);
+  line-height: 25px;
+}
+.reviews__name {
+  font-weight: bold;
+  margin-top: 30px;
+}
+.questions {
+  color: #fff;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("questionsImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 10%;
+  margin-top: 50px;
+}
+.questions p:first-of-type {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.questions form {
+  width: 100%;
+}
+.question__section {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+.question__section--input {
+  width: 30%;
+  background: none;
+  font-style: italic;
+  font-weight: 400;
+  border-radius: 3px;
+  border: 1px solid silver;
+  padding: 8px;
+}
+.question__section--input::placeholder {
+  color: #fff;
+}
+/* .send__btn {
+  margin: 0 auto;
+} */
+footer {
+  height: 10vh;
+  color: #fff;
+  background-color: #000;
+}
+footer p {
+  width: 80%;
+  margin: 0 auto;
+  line-height: 10vh;
+}
+.btn {
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: orangered;
+  border: 0;
+  border-radius: 3px;
+  padding: 10px;
+}
+.btn:hover {
+  box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 1023px) {
+  .header {
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    width: 100vw;
+  }
+  .callback {
+    width: 70%;
+    order: 2;
+    padding-bottom: 30px;
+    margin: 0;
+    margin-bottom: 50px;
+  }
+  .text {
+    width: 80%;
+    margin: 0;
+  }
+  .content__benefits {
+    flex-direction: column;
+  }
+  .content__benefits section {
+    margin: 0;
+  }
+  .mentor {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mentor__image {
+    width: 100%;
+    margin: 0;
+  }
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .row:first-of-type {
+    margin-bottom: 0;
+  }
+  .criterias-section {
+    margin-top: 10px;
+    width: auto;
+  }
+  .reviews {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  .reviews__section {
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+  }
+  .question__section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .question__section--input {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+  .questions {
+    height: 70vh;
+  }
+}
+@media (max-width: 500px) {
+  .header {
+    justify-content: space-between;
+    padding: 30px 0;
+  }
+  .callback {
+    margin: 0;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .header {
+    height: 60vh;
+  }
+  .callback {
+    padding: 20px;
+  }
+} ;
